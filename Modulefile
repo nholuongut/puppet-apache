@@ -1,0 +1,13 @@
+name 'nholuongut-apache'
+version '2.1.8'
+
+author 'Nho Luong'
+license 'Apache2'
+project_page 'https://github.com/nholuongut'
+source 'https://github.com/nholuongut/puppet-apache'
+summary 'Puppet module for apache'
+description 'This module installs and manages apache. Check README.rdoc for details. Puppi is required for some common functions: you can install them without using the whole module. Monitor and firewall dependencies are needed only if the relevant features are enabled'
+dependency 'nholuongut/puppi', '>=2.0.0'
+# optional_dependency 'nholuongut/yum', '>=2.0.0'
+# optional_dependency 'nholuongut/firewall', '>=2.0.0'
+# optional_dependency 'nholuongut/monitor', '>=2.0.0'
